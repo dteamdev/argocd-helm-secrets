@@ -1,5 +1,4 @@
 # argocd-helm-secrets
-# helm-kubernetes Docker hub image
 
 [![Image Size](https://img.shields.io/docker/image-size/dteamdev/argocd-helm-secrets)]()
 [![Image Version](https://img.shields.io/docker/v/dteamdev/argocd-helm-secrets?sort=semver)]()
