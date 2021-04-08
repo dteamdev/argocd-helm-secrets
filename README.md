@@ -1,8 +1,8 @@
 # argocd-helm-secrets
 # helm-kubernetes Docker hub image
 
-[![](https://img.shields.io/microbadger/layers/dteamdev/argocd-helm-secrets)]()
-[![](https://img.shields.io/microbadger/image-size/dteamdev/argocd-helm-secrets)](https://microbadger.com/images/dteamdev/argocd-helm-secrets "Get your own version badge on microbadger.com")
+[![Image Size](https://img.shields.io/docker/image-size/dteamdev/argocd-helm-secrets)]()
+[![Image Version](https://img.shields.io/docker/v/dteamdev/argocd-helm-secrets)]()
 [![Build Status](https://img.shields.io/github/workflow/status/dteamdev/argocd-helm-secrets/ci?style=flat)](https://github.com/dteamdev/argocd-helm-secrets/actions/workflows/build.yml)
 [![Docker Stars](https://img.shields.io/docker/stars/dteamdev/argocd-helm-secrets.svg?style=flat)](https://hub.docker.com/r/dteamdev/argocd-helm-secrets/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/dteamdev/argocd-helm-secrets.svg)]()

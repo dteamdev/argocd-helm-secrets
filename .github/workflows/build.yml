@@ -28,7 +28,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
       - name: Prepare build arhs
         run: |
-          echo "docker_tag=`git rev-parse --abbrev-ref HEAD`" >> $GITHUB_ENV && \
+          echo "docker_tag=`git describe --abbrev=0 --tags`" >> $GITHUB_ENV && \
           echo "vsc_ref=`git rev-parse --short HEAD`" >> $GITHUB_ENV && \
           echo "build_date=`date -u +'%Y-%m-%dT%H:%M:%SZ'`" >> $GITHUB_ENV
       -
