@@ -10,8 +10,8 @@ ARG HELM_SECRETS_VERSION
 # Metadata
 LABEL org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.name="helm-secrets" \
-      org.label-schema.url="https://hub.docker.com/r/dteamdev/helm-secrets/" \
-      org.label-schema.vcs-url="https://github.com/dteamdev/helm-secrets" \
+      org.label-schema.url="https://hub.docker.com/r/dteamdev/argocd-helm-secrets/" \
+      org.label-schema.vcs-url="https://github.com/dteamdev/argocd-helm-secrets" \
       org.label-schema.build-date=$BUILD_DATE
 
 USER root
