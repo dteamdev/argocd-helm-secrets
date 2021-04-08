@@ -1,1 +1,1 @@
-# helm-secrets
+# argocd-helm-secrets

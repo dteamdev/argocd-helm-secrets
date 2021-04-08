@@ -9,6 +9,8 @@ jobs:
   docker:
     env:
       SOPS_VERSION: 3.7.0
+      HELM_SECRETS_VERSION: 3.6.1
+      ARGOCD_VERSION: v2.0.0
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -40,7 +42,7 @@ jobs:
             VCS_REF=${{ env.vsc_ref }}
             BUILD_DATE=${{ env.build_date }}
             SOPS_VERSION=${{ env.SOPS_VERSION }}
-          tags: dteamdev/helm-secrets:${{ env.docker_tag }}
+          tags: dteamdev/argocd-helm-secrets:${{ env.docker_tag }}
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
