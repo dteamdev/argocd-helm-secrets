@@ -42,6 +42,7 @@ jobs:
             VCS_REF=${{ env.vsc_ref }}
             BUILD_DATE=${{ env.build_date }}
             SOPS_VERSION=${{ env.SOPS_VERSION }}
+            ARGOCD_VERSION=${{ env.ARGOCD_VERSION }}
           tags: dteamdev/argocd-helm-secrets:${{ env.docker_tag }}
       -
         name: Image digest
