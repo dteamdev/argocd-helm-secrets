@@ -10,6 +10,7 @@ Supported tags and release links
 
 * [2.0.0](https://github.com/dteamdev/argocd-helm-secrets/releases/tag/2.0.0) - ArgoCD v2.0.0, Helm secrets v3.6.1, Sops v3.7.0
 * [2.0.1](https://github.com/dteamdev/argocd-helm-secrets/releases/tag/2.0.1) - ArgoCD v2.0.0, Helm secrets v3.6.1, Sops v3.7.1
+* [2.0.1](https://github.com/dteamdev/argocd-helm-secrets/releases/tag/2.0.1) - ArgoCD v2.0.0, Helm secrets v3.6.1, Sops v3.7.1 (Fixed sops version notation)
 
 ## Overview
 
