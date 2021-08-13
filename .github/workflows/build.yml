@@ -9,8 +9,8 @@ jobs:
   docker:
     env:
       SOPS_VERSION: v3.7.1
-      HELM_SECRETS_VERSION: 3.6.1
-      ARGOCD_VERSION: v2.0.0
+      HELM_SECRETS_VERSION: 3.8.1
+      ARGOCD_VERSION: v2.0.5
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
